@@ -20,6 +20,12 @@ body {
 
 }
 
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding: 10px;
+}
+
 header{
      font-family: 'JetBrains Mono', monospace;
      color:#FAFAF8 ;
@@ -27,10 +33,14 @@ header{
      flex-direction: column;
      text-align: center;
      
+     
 }
 
 header h1{
     font-size: medium;
+}
+.highlight{
+    color: #00FF9C;
 }
 header p{
     font-size: medium;
