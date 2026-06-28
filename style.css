@@ -1,0 +1,133 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Inter',sans-serif;
+    font-family: 'JetBrains Mono', monospace; */
+}
+
+body {
+    background-color: #0A0A0A;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 14px;
+    min-height: 100vh;
+    /* margin-top: 100px; */
+    
+
+}
+
+header{
+     font-family: 'JetBrains Mono', monospace;
+     color:#FAFAF8 ;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     
+}
+
+header h1{
+    font-size: medium;
+}
+header p{
+    font-size: medium;
+    font-weight: bolder;
+    color: #00FF9C;
+}
+
+header img {
+    max-width: 140px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-bottom: 8px;
+    transition: filter 0.3s ease;
+}
+
+header img:hover {
+    filter: grayscale(100%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.link{
+   position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    border: 2px solid #2C2C2C;
+    border-radius: 8px;
+    width: 420px;
+    max-width: 100%;
+    margin: 0 auto;
+    transition-duration: 200ms;
+    cursor: pointer;
+    overflow: hidden;
+    color: #00FF9C;
+    text-decoration: none;
+    font-family: 'Inter',sans-serif;
+     transition:  0.2s ease;
+     
+}
+
+.link:hover {
+    border-color: #00FF9C;
+    color: rgb(from #00FF9C r g b / 0.5); 
+    
+}
+
+.linkbackground {
+    position: absolute;
+    inset: 0;
+    background: #1A1A1A;
+    
+    z-index: -1;
+}
+
+.link i{
+    color:#FAFAF8  ;
+    transition:  0.2s ease;
+}
+
+/* @media (min-width: 640px) {
+    body {
+        gap: 64px;
+        padding: 80px 14px;
+    }
+
+    header,
+    main {
+        gap: 24px;
+    }
+
+    header img {
+        max-width: 200px;
+        padding-bottom: 24px;
+    }
+
+    header h1 {
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    header p {
+        font-size: 1.1em;
+        font-weight: 700;
+    }
+
+    .link p {
+        font-size: 1.1em;
+    }
+
+} */
